@@ -1,22 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
-    <title>Mi página Web</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primer sitio Web</title>
   </head>
   <body>
     <header>
-      <h1>Mi página web</h1>
-      <p>Mi nombre es: Luz Coronado.</p>
+      <h1>Anime Recomendaciones</h1>
+      <div id="nav">
+        <a href="./index.html" title="Inicio">Inicio</a>
+        <a href="./solicitud.html" title="Solicitud">Solicitud</a>
+        <a href="./info.html" title="Info">Más Información</a>
+      </div>
     </header>
+    <hr />
     <main>
-      <section>
-        <div></div>
+      <div>
+        <p>
+          En este sitio web encontraras recomendaciones de animes de todo
+          género, desde los más populares hasta los menos vistos, cada uno con
+          una breve descripción.
+        </p>
+        <p>
+          Si quieres saber sobre un anime en especifico pueddes hacer una
+          solicitud y nosotros lo agregaremos.
+        </p>
+        <p>Sin más, disfruta de nuestro contenido!!!</p>
+      </div>
+      <br />
+      <section id="animesPopulares">
+        <h2>Animes Populares</h2>
+        <div class="contenedor">
+          <p>
+            Bienvenido a nuestra sección de Animes Populares, donde encontrarás
+            los títulos más aclamados y vistos por la comunidad. Desde
+            emocionantes aventuras hasta conmovedoras historias, aquí te
+            presentamos una selección de animes que han capturado los corazones
+            de fans alrededor del mundo. ¡Explora nuestras recomendaciones y
+            descubre tu próximo anime favorito!
+          </p>
+          <div class="kimetsu">
+            <img
+              src="./img/kimetsu.jpg"
+              alt="Demon Slayer"
+              height="300px"
+              width="auto"
+            />
+            <h3>Demon Slayer(Kimetsu no Yaiba)</h3>
+            <p>
+              El anime sigue las aventuras de Tanjirō Kamado, un adolescente
+              cuya familia fue cruelmente asesinada por un Demonio el cual
+              convirtió a su hermana Nezuko en una de estas criaturas, obligando
+              a Tanjirō a emprender un viaje para cazar a estos seres y de paso
+              ayudar a su hermana a recuperar su humanidad. <br />
+              Este anime cuenta con 4 temporadas y la confirmación de una quinta
+              entrega para el final de esta historia.
+            </p>
+            <ul>
+              <li>
+                Temporada 1: Kimetsu no Yaiba: Risshi-hen. <br />
+                Capitulos: 26
+              </li>
+              <li>
+                Temporada 2: Kimetsu no Yaiba: Mugen Ressha-hen (TV) y Kimetsu
+                no Yaiba: Yūkaku-hen. <br />
+                Capitulos: 18
+              </li>
+              <li>
+                Temporada 3: Kimetsu no Yaiba: Katanakaji no Sato-hen <br />
+                Capitulos: 11
+              </li>
+              <li>
+                Temporada 4: Kimetsu no Yaiba: Hashira Geiko-hen <br />
+                Capitulos: 8
+              </li>
+            </ul>
+          </div>
+          <div class="fullmetal">
+            <img
+              src="./img/fullmetal.jpe"
+              alt="Fullmetal Alchemist: Brotherhood"
+              height="320px"
+              width="auto"
+            />
+            <h3>Fullmetal Alchemist: Brotherhood</h3>
+            <p>
+              El anime sigue a los hermanos Edward y Alphonse Elric que
+              continúan la búsqueda de la Piedra Filosofal con la esperanza de
+              restaurar sus cuerpos, que se perdieron cuando intentaron utilizar
+              sus habilidades en alquimia al tratar de resucitar a su madre
+              fallecida. <br />
+              Este anime cuenta con 1 temporada de 64 capitulos.
+            </p>
+          </div>
+          <div class="frieren">
+            <img
+              src="./img/frieren.jpg"
+              alt="Soso no Frieren"
+              height="300px"
+              width="auto"
+            />
+            <h3>Soso no Frieren</h3>
+            <p>
+              La historia sigue a la maga elfa Frieren, una exmiembro del grupo
+              de aventureros que derrotó al Rey Demonio y restauró la armonía en
+              el mundo después de una búsqueda de diez años. <br />
+              Este anime cuenta con 1 temporada de 26 episodios.
+            </p>
+          </div>
+          <div class="haikyu">
+            <img
+              src="./img/haikyu.jpg"
+              alt="Haikyu!!"
+              height="300px"
+              width="auto"
+            />
+            <h3>Haikyu!!</h3>
+            <p>
+              La historia empieza cuando Shōyō Hinata, aún siendo un estudiante
+              de primaria, ve un partido de voleibol por la televisión, en el
+              cual ve jugar al conocido "Pequeño Gigante". Desde entonces, desea
+              convertirse en alguien como él, debido a que ambos son bajos de
+              estatura, y comienza a aficionarse por el deporte. <br />
+              Cuenta con 4 temporadas.
+            </p>
+            <ul>
+              <li>Temporada 1: 25 episodios</li>
+              <li>Temporada 2: 25 episodios</li>
+              <li>Temporada 3: 10 episodios</li>
+              <li>Temporada 4: 25 episodios</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="animesShonen">
+        <h2>Animes Shonen</h2>
+        <div class="contenedor2">
+          <div class="jujutsu">
+            <img
+              src="./img/jujutsu.jpg"
+              alt="Jujutsu Kaisen"
+              height="300px"
+              width="auto"
+            />
+            <h3>Jujutsu Kaisen</h3>
+          </div>
+        </div>
+      </section>
+      <section id="animesIsekai">
+        <h2>Animes Isekai</h2>
+        <div class="contenedor2">
+          <div class="sao">
+            <img
+              src="./img/sao.jpe"
+              alt="Sword Art Online"
+              height="330px"
+              width="auto"
+            />
+            <h3>Sword Art Online</h3>
+          </div>
+        </div>
       </section>
     </main>
+    <hr />
     <footer>
-      <span>enlace 1</span>
-      <span>enlace 2</span>
-      <span>enlace 3</span>
+      <p>Autor@: Luz Coronado</p>
+      <p><a href="coronadoluz73@gmail.com">coronadoluz73@gmail.com</a></p>
+      <span>Otro enlace</span>
     </footer>
   </body>
 </html>
